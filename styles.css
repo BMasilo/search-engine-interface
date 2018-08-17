@@ -1,0 +1,167 @@
+body{
+  background: url("astronomy.jpg") no-repeat fixed;
+  background-size: cover;
+  font-family: UniqueRegular;
+}
+
+main {
+margin-top: 200px;
+}
+
+.dropdownMenu{
+  display: none;
+}
+
+.searchPage, .searchbar {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.searchbar{
+  margin-bottom: 20px;
+  width: 40%;
+  height: 50px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.button{
+  font-size: 20px;
+  margin: 10px;
+  width: 14.4%;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: silver;
+  color: white;
+}
+
+.logo{
+  font-size: 3em;
+  font-weight: bold;
+  color: yellow;
+  font-family: 'UniqueRegular';
+  margin-bottom: 10px;
+}
+
+#coffee{
+  color: chocolate;
+}
+
+ul{
+  text-align: right;
+}
+
+li{
+  list-style-type: none;
+  display:inline;
+  padding-left: 15px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.fa{
+  font-size: 20px;
+  color: yellow;
+}
+
+.menuButton{
+  display: none;
+}
+
+footer{
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  bottom:0;
+  width:100%;
+  color:silver;
+}
+
+.navbar{
+  overflow: hidden;
+  font-family: fantasy;
+  background: : white;
+}
+
+p{
+  color: silver;
+  margin-top: 20px;
+}
+
+.dropdown{
+  display:none;
+}
+
+@media screen and (max-width: 640px) {
+  .searchbar{
+  width: 60%;
+  color:red;
+  }
+
+  .button{
+  display: block;
+  width:100%;
+  float: none;
+  margin: 10px auto;
+  padding: 5px;
+  }
+
+
+  .menuButton{
+    font-size: 40px;
+    color: yellow;
+  }
+
+  .dropdown{
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  .dropdownContent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 2px 6px 4px 0px black;
+    padding: 5px;
+  }
+
+  .dropdownContent a{
+    display: block;
+    padding-bottom: 10px;
+    color: yellow;
+  }
+
+  .dropdownContent a:hover{
+    font-style: italic;
+    font-weight: bold;
+    color: silver;
+  }
+  .dropdown:hover .dropdownContent{
+    display: block;
+  }
+
+  .menuButton{
+    display: block;
+    background: none;
+    border: none;
+    width: 50px;
+  }
+
+  .fa {
+  display: none;
+  }
+
+  footer{
+  display: none;
+  }
+}
