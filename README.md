@@ -2,7 +2,7 @@
 
 please click here to view, thank you. 
 
-https://bmasilo.github.io/search-engine-interface/searchEngine.html
+https://bmasilo.github.io/search-engine-interface/
 
 Landing page of a fictional search engine called JungleCoffee.
 
